@@ -83,7 +83,7 @@ function toggleLanguage() {
   const servicesMain = document.getElementById('servicesMain');
   const servicesSubMain = document.getElementById('servicesSubMain');
   const scrollGoods = document.getElementById('scrollGoods');
-  const scrollInvestors = document.getElementById('scrollInvestors');
+  const scrollInvestors = document.getElementById('scrollInvesting');
   const scrollСonnection = document.getElementById('scrollСonnection');
 
   if (currentLanguage === 'en') {
