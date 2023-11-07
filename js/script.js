@@ -22,6 +22,38 @@ document.getElementById("scrollMembers").addEventListener("click", function() {
     targetBlock.scrollIntoView({ behavior: "smooth" });
 });
 
+document.getElementById("scrollRules").addEventListener("click", function() {
+  // Получите ссылку на блок, к которому хотите прокрутиться
+  var targetBlock = document.getElementById("rules");
+  
+  // Используйте метод scrollIntoView для прокрутки к этому блоку
+  targetBlock.scrollIntoView({ behavior: "smooth" });
+});
+
+document.getElementById("scrollServices").addEventListener("click", function() {
+  // Получите ссылку на блок, к которому хотите прокрутиться
+  var targetBlock = document.getElementById("services");
+  
+  // Используйте метод scrollIntoView для прокрутки к этому блоку
+  targetBlock.scrollIntoView({ behavior: "smooth" });
+});
+
+document.getElementById("scrollGoods").addEventListener("click", function() {
+  // Получите ссылку на блок, к которому хотите прокрутиться
+  var targetBlock = document.getElementById("goods");
+  
+  // Используйте метод scrollIntoView для прокрутки к этому блоку
+  targetBlock.scrollIntoView({ behavior: "smooth" });
+});
+
+document.getElementById("scrollInvesting").addEventListener("click", function() {
+  // Получите ссылку на блок, к которому хотите прокрутиться
+  var targetBlock = document.getElementById("investing");
+  
+  // Используйте метод scrollIntoView для прокрутки к этому блоку
+  targetBlock.scrollIntoView({ behavior: "smooth" });
+});
+
 document.getElementById("scrollСonnection").addEventListener("click", function() {
     // Получите ссылку на блок, к которому хотите прокрутиться
     var targetBlock = document.getElementById("block2");
